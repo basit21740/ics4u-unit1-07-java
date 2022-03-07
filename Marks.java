@@ -100,8 +100,8 @@ final class Marks {
         for (int counter = 0; counter <= stuNum; counter++) {
             System.out.println(Arrays.toString(markArray[counter]));
         }
-
         return markArray;
+
     }
 
     /**
@@ -164,6 +164,7 @@ final class Marks {
                 line = line.replace(BACK_BRACE, "");
                 myFile.write(System.lineSeparator());
                 myFile.write(line);
+
             }
 
             myFile.close();
@@ -174,5 +175,6 @@ final class Marks {
         }
 
         System.out.println("\nDone.");
+
     }
 }
